@@ -85,6 +85,7 @@ function leftArrow() {
 /******************************************************************************************************/
 function previewFive() {
    
+   
     //locate first element where the tag is article assign to a variable
     var articleEl = document.getElementsByTagName("article")[0];
     
@@ -157,7 +158,7 @@ function createEventListeners() {
                 //when the user clicks the Show More button the previewFive function is executed
                 showAllButton.addEventListener("click", previewFive, false);
    
-}//end of createEventListeners function
+    }//end of createEventListeners function
 
 /************************************END OF createEventListeners() FUNCTION****************************/
 
