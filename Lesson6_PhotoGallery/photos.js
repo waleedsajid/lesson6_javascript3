@@ -1,7 +1,7 @@
 /*    
     Program Name:  Photo Gallery Application
-    Author: 
-    Date:   
+    Author: Waleed Butt
+    Date:  11/4/16 
     Filename: photos.js
  */
 
