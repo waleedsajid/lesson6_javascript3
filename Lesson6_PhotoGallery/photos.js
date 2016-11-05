@@ -9,8 +9,8 @@
 "use strict"; // interpret document contents in JavaScript strict mode
 
 /* global variables */
-    var photoOrder = [1,2,3,4,5];
-    var figureCount = 3;
+     var photoOrder = [1,2,3,4,5];
+     var figureCount = 3;
 
 /*****************************************populateFigures() FUNCTION*************************************/
 /* This method adds src values to img elements based on order specified in photoOrder array             */
