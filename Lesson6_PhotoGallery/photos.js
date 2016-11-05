@@ -158,7 +158,7 @@ function createEventListeners() {
                 //when the user clicks the Show More button the previewFive function is executed
                 showAllButton.addEventListener("click", previewFive, false);
    
-    }//end of createEventListeners function
+        }//end of createEventListeners function
 
 /************************************END OF createEventListeners() FUNCTION****************************/
 
@@ -168,7 +168,7 @@ function createEventListeners() {
 function setUpPage() {
    createEventListeners();
    populateFigures();
-}//end of setUpPage Function
+    }//end of setUpPage Function
 
 /***********************************END OF setUpPage() FUNCTION***************************************/
 
@@ -177,6 +177,6 @@ function setUpPage() {
 /* run setUpPage() function when page finishes loading */
 if (window.addEventListener) {
       window.addEventListener("load", setUpPage, false); 
-} else if (window.attachEvent)  {
+    } else if (window.attachEvent)  {
       window.attachEvent("onload", setUpPage);
-}//end of else if
+        }//end of else if
